@@ -35,10 +35,10 @@
 - (altertive) 接口的描述/备注
 
 ## 响应信息示例——键值对格式
-| response<br>
+| response
 ```
-success<br>
-{<br>
+success
+{
   "status":0, //接口状态，0成功、1失败、10未登录
   "data":{    //接口数据
     "id":2,   
@@ -51,3 +51,5 @@ fail
   "msg":"该商品已下架或删除" //接口错误信息
 }
 ```
+## ES6
+Babel: ES6 -> ES5 的转换器
