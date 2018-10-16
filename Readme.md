@@ -35,18 +35,18 @@
 - (altertive) 接口的描述/备注
 
 ## 响应信息示例——键值对格式
-| response
-success
-{
-  "status":0, //接口状态，0成功、1失败、10未登录
-  "data":{    //接口数据
-    "id":2,   
-    "name":"oppo R8",
-  }
-}
-
-fail
-{
-  status:1
-  "msg":"该商品已下架或删除" //接口错误信息
-}
+| response<br>
+success<br>
+{<br>
+  "status":0, //接口状态，0成功、1失败、10未登录<br>
+  "data":{    //接口数据<br>
+    "id":2,   <br>
+    "name":"oppo R8",<br>
+  }<br>
+}<br>
+<br>
+fail<br>
+{<br>
+  status:1<br>
+  "msg":"该商品已下架或删除" //接口错误信息<br>
+}<br>
